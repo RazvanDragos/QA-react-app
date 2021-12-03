@@ -1,0 +1,11 @@
+.app {
+  text-align: center;
+
+  .appContainer {
+    @apply flex flex-col items-center justify-center gap-10;
+
+    .containerItem {
+      @apply border border-solid border-black p-10;
+    }
+  }
+}
